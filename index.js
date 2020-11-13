@@ -1,4 +1,3 @@
-console.log("Hello");
 
 //selectors
 const todoInput = document.querySelector('.todo-input');

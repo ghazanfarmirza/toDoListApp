@@ -105,25 +105,3 @@ select{
     outline: none;
     border: none;
 }
-
-.select {
-    margin: 1rem;
-    position: relative;
-    overflow: hidden;
-}
-
-select {
-    color: #ff6f47;
-    width: 10rem;
-    cursor: pointer;
-}
-
-.select::after{
-    content: "\25BC";
-    position: relative;
-    background: #ff6f47;
-    top: 0;
-    right: 0;
-    padding: 1rem;
-    pointer-events: none;
-}
